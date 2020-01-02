@@ -85,5 +85,4 @@
         app:backgroundTint="#ffffff"
         app:pressedTranslationZ="12dp"
         app:srcCompat="@drawable/ic_add"/>
-
 </RelativeLayout>

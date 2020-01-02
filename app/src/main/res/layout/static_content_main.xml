@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="bottom|start"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/static_textview_account"
+        android:text="Account"
+        android:layout_marginLeft="68dp"
+        android:layout_marginBottom="-28dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/static_fab_account"
+        android:layout_marginLeft="18dp"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/ic_account"
+        android:tint="#37474f"
+        android:backgroundTint="#ffffff"
+        android:background="?android:attr/selectableItemBackground"
+        app:pressedTranslationZ="12dp"
+        app:fabSize="mini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/static_textview_call"
+        android:text="Call"
+        android:layout_marginLeft="68dp"
+        android:layout_marginBottom="-28dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/static_fab_call"
+        android:layout_marginLeft="18dp"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/ic_call"
+        android:tint="#37474f"
+        android:backgroundTint="#ffffff"
+        android:background="?android:attr/selectableItemBackground"
+        app:pressedTranslationZ="12dp"
+        app:fabSize="mini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/static_fab_main"
+        android:layout_marginLeft="18dp"
+        android:layout_marginBottom="18dp"
+        app:fabSize="normal"
+        android:src="@drawable/ic_add"
+        android:backgroundTint="#ffffff"
+        android:background="?android:attr/selectableItemBackground"
+        app:pressedTranslationZ="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
